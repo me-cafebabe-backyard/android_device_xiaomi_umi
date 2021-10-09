@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The fluidOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_umi.mk
+    $(LOCAL_DIR)/fluid_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_umi-user \
-    lineage_umi-userdebug \
-    lineage_umi-eng
+    fluid_umi-user \
+    fluid_umi-userdebug \
+    fluid_umi-eng
