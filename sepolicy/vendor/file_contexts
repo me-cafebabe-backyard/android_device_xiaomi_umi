@@ -1,0 +1,2 @@
+# Fingerprint - devices
+/dev/gx_fod_fp		u:object_r:fingerprint_device:s0

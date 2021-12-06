@@ -1,0 +1,3 @@
+on boot
+    chmod 0666 /dev/gx_fod_fp
+    chown system system /dev/gx_fod_fp
