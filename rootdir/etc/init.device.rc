@@ -1,3 +1,14 @@
 on boot
     chmod 0666 /dev/gx_fod_fp
     chown system system /dev/gx_fod_fp
+
+on property:ro.boot.hwlevel=P0.1
+    setprop vendor.lineage.fod.position_x 449
+    setprop vendor.lineage.fod.position_y 1825
+
+on property:ro.boot.hwlevel=P1
+    setprop vendor.lineage.fod.position_x 449
+    setprop vendor.lineage.fod.position_y 1825
+
+on property:ro.boot.hwlevel=*
+    setprop vendor.lineage.fod.enable true
