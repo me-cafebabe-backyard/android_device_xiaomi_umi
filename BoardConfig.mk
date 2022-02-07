@@ -19,7 +19,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_umi
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_umi
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/umi_defconfig
+TARGET_KERNEL_CONFIG := vendor/mikona_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := umi
