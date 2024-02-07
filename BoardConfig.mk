@@ -19,6 +19,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_umi
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_umi
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CONFIG += vendor/xiaomi/umi.config
 
 # OTA assert
